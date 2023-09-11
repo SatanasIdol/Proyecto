@@ -1,11 +1,4 @@
 //I Ching
-function rand(){
-  val = 0
-  while(val=0){
-    val = Math.floor(Math.random() * 4);
-  }
-  console.log(val)
-}
   
 // Función para generar una línea (yang o yin) de manera aleatoria
 function genLin() {
@@ -31,10 +24,7 @@ function mostrarHexa(hexagram) {
 }
 
 // Generar y mostrar un hexagrama aleatorio
-console.log("Hexagrama Aleatorio:");
+alert("Hola, este programa le muestra un hexagrama de el I Ching");
 mostrarHexa(genHexa());
 
-alert(`Hexagrama Aleatorio: ${mostrarHexa(genHexa())}`);
-
 // mensaje en pantalla
-alert("Hola, este programa le muestra un hexagrama de el I Ching");
