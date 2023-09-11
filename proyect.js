@@ -1,5 +1,6 @@
 //I Ching
-  
+
+
 // Función para generar una línea (yang o yin) de manera aleatoria
 function genLin() {
   return Math.random() < 0.5 ? "yang" : "yin";
